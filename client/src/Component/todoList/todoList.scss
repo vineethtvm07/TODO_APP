@@ -1,0 +1,17 @@
+.todo-container {
+    width:400px;
+    height: 50vh;
+    padding: 10px;
+    margin-top:150px;
+    border: none;
+    overflow:auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position:absolute;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    
+}
